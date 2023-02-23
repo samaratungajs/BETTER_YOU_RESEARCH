@@ -1,0 +1,17 @@
+spacy
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.2.0/en_core_web_sm-3.2.0.tar.gz
+beautifulsoup4
+flask
+huggingface-hub
+keras
+keras-preprocessing
+nltk
+numpy
+pandas
+scikit-learn
+tensorflow
+text-hammer
+tokenizers
+tqdm
+transformers
+pymongo

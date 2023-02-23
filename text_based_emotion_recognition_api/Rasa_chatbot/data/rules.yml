@@ -1,0 +1,27 @@
+version: "2.0"
+
+rules:
+- rule: Say 'Hi
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Say 'happy
+  steps:
+  - intent: mood_great
+  - action: utter_happy
+
+- rule: Say 'Respond to the exam
+  steps:
+  - intent: exam
+  - action: utter_exam
